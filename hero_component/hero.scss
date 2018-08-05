@@ -1,0 +1,25 @@
+.hero-component {
+  background-repeat: no-repeat;
+  background-position-y: -140px;
+  height: 500px;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.55);
+}
+
+.skewed-divider-top {
+  width: 700px;
+}
+
+.skewed-divider-top-light {
+  width: 700px;
+  border-color: $white;
+}
+
+.skewed-divider-bottom {
+  transform: skewX(-45deg);
+  border-width: 10px;
+  width: 300px;
+  position: relative;
+  bottom: 16px;
+  background-color: $blue;
+}
