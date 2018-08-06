@@ -1,15 +1,12 @@
 {
   "name": "make-native-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web components for more efficient development time",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jmstewart1127/Web-Components.git"
-  },
+  "repository": "git+https://github.com/Jmstewart1127/Web-Components.git",
   "keywords": [
     "web",
     "components"
@@ -19,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/Jmstewart1127/Web-Components/issues"
   },
-  "homepage": "https://github.com/Jmstewart1127/Web-Components#readme"
+  "homepage": "https://github.com/Jmstewart1127/Web-Components#readme",
+  "private": null
 }
