@@ -1,5 +1,5 @@
 customElements.define('hero-custom',
-  class extends HTMLElement {
+  class HeroCustom extends HTMLElement {
     constructor() {
       super();
 
@@ -9,9 +9,9 @@ customElements.define('hero-custom',
       divElem.innerHTML = `
       <div class="hero-component" style="background-image: url('${imgUrl}')">
         <div class="hero-divider">
-            <h2 class="text-center">${title}</h2>
-            <hr class="skewed-divider-top-light">
-            <hr class="skewed-divider-bottom">
+          <h2 class="text-center">${title}</h2>
+          <hr class="skewed-divider-top-light">
+          <hr class="skewed-divider-bottom">
         </div>
       </div>`;
 
@@ -20,3 +20,5 @@ customElements.define('hero-custom',
     }
   }
 );
+
+export default HeroCustom
